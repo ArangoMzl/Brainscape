@@ -33,7 +33,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="">
-                        <HiMenuAlt3 size={26} className="cursor-pointer hover:text-primary duration-500" onClick={() => setOpen(!open)} />
+                        <HiMenuAlt3 size={26} className="cursor-pointer hover:text-primary hover:duration-500" onClick={() => setOpen(!open)} />
                     </div>
                 </div>
                 <div className="mt-4 flex flex-col gap-4 relative">
@@ -71,7 +71,7 @@ const Home = () => {
                             description="Owner"
                         />
                     </div>
-                    <div className="flex mx-9 items-center hover:text-danger cursor-pointer">
+                    <div className="flex mx-9 items-center hover:text-danger cursor-pointer hover:duration-500">
                         <IoMdExit size={20} />
                     </div>
                 </div>
