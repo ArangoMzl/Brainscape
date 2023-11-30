@@ -29,7 +29,7 @@ export default function RootLayout({
 					<div className="bg-gray-200 h-screen">
 						<Sidenav/>
 					</div>
-					<div className="w-3/4 bg-white h-screen overflow-auto">
+					<div className="w-full bg-white h-screen overflow-auto">
 						{children}
 					</div>
 				</div>
